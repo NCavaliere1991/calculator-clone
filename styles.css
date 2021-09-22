@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+#screen {
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    height: 75px;
+    border: 0;
+    font-size: 50px;
+    padding-right: 30px;
+}
+
+.zero {
+    width: 200px;
+}
+
+button {
+    width: 100px;
+    background-color: rgb(100, 100, 100);
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid black;
+}
+
+button:active {
+    background-color: rgb(153, 151, 151)
+}
+
+.operator {
+    background-color: orange;
+}
+
+.operator:active {
+    background-color: rgb(194, 126, 0);
+}
+
+.operator-pressed {
+    color: orange;
+    background-color: white;
+}
